@@ -63,7 +63,7 @@ body {
     /*margin: 0 auto; /* Centra el contenedor de logos */
     /*width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
     margin-bottom: 30px;/* Espacio debajo de los logos */
-    flex-wrap: wrap; /* Permite que los logos se ajusten en varias filas si es necesario */
+    /*flex-wrap: wrap; /* Permite que los logos se ajusten en varias filas si es necesario */
     flex-direction: row; /* Esto es por defecto, logos en fila */
     align-items: center;    /* Centra los logos horizontalmente */
 }
