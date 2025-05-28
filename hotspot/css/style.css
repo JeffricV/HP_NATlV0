@@ -43,77 +43,30 @@ body {
 
 
 
-/* Color de Logos y letras de logos *
+/* Color de Logos y letras de logos */
 
-.logos-vertical {
-    display: flex;/* Contenedor flex para los logos *
-    justify-content: center; /* Centra los logos horizontalmente *
-    gap: 30px;/* Espacio entre los logos */
-    /*margin: 0 auto; /* Centra el contenedor de logos */
-    /*width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible *
-    margin-bottom: 30px;/* Espacio debajo de los logos *
-    flex-direction: column; /* Logos en columna *
-    align-items: center;    /* Centra los logos horizontalmente *
-}
-
-.logos-horizontal {
-    display: flex;/* Contenedor flex para los logos *
-    justify-content: center; /* Centra los logos horizontalmente *
-    gap: 30px;/* Espacio entre los logos */
-    /*margin: 0 auto; /* Centra el contenedor de logos */
-    /*width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible *
-    margin-bottom: 30px;/* Espacio debajo de los logos */
-    /*flex-wrap: wrap; /* Permite que los logos se ajusten en varias filas si es necesario *
-    flex-direction: row; /* Esto es por defecto, logos en fila *
-    align-items: center;    /* Centra los logos horizontalmente *
-}
-*/
-
-
-/* Base para cualquier logo (imagen) */
-.logo {
-    display: block;
-    margin: 0 auto 30px auto;
-    height: auto;
-    /* No definas tamaño ni orientación aquí */
-}
-
-/* Contenedor para logos en columna (uno arriba de otro) */
 .logo-vertical {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    margin-bottom: 30px;
+    display: flex;/* Contenedor flex para los logos */
+    justify-content: center; /* Centra los logos horizontalmente */
+    gap: 30px;/* Espacio entre los logos */
+    /*margin: 0 auto; /* Centra el contenedor de logos */
+    /*width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+    margin-bottom: 30px;/* Espacio debajo de los logos */
+    flex-direction: column; /* Logos en columna */
+    align-items: center;    /* Centra los logos horizontalmente */
 }
 
-/* Contenedor para logos en fila (uno al lado del otro) */
 .logo-horizontal {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 30px;
+    display: flex;/* Contenedor flex para los logos */
+    justify-content: center; /* Centra los logos horizontalmente */
+    gap: 30px;/* Espacio entre los logos */
+    /*margin: 0 auto; /* Centra el contenedor de logos */
+    /*width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+    margin-bottom: 30px;/* Espacio debajo de los logos */
+    /*flex-wrap: wrap; /* Permite que los logos se ajusten en varias filas si es necesario */
+    flex-direction: row; /* Esto es por defecto, logos en fila */
+    align-items: center;    /* Centra los logos horizontalmente */
 }
-
-/* Limita el tamaño máximo del logo */
-.logo-tamaño-maximo img,
-.logo-tamaño-maximo {
-    max-width: 200px;
-    max-height: 200px;
-}
-
-/* Tamaño fijo para el logo */
-.logo-tamaño-estatico img,
-.logo-tamaño-estatico {
-    width: 120px;
-    height: 120px;
-}
-
-
-
-
 
 .logo-block {
     display: flex;
