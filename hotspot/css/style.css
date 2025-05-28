@@ -51,6 +51,9 @@ body {
     gap: 30px;/* Espacio entre los logos */
     /*margin: 0 auto; /* Centra el contenedor de logos */
     /*width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+    /*width: 120px; /*auto*/ /* Ancho fijo para los logos */
+    /*height: 120px; /*auto*/ /* Alto fijo para los logos */
+    /*flex-wrap: wrap; /* Permite que los logos se ajusten en varias filas si es necesario */
     margin-bottom: 30px;/* Espacio debajo de los logos */
     flex-direction: column; /* Logos en columna */
     align-items: center;    /* Centra los logos horizontalmente */
@@ -62,8 +65,10 @@ body {
     gap: 30px;/* Espacio entre los logos */
     /*margin: 0 auto; /* Centra el contenedor de logos */
     /*width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
-    margin-bottom: 30px;/* Espacio debajo de los logos */
+    /*width: 120px; /*auto*/ /* Ancho fijo para los logos */
+    /*height: 120px; /*auto*/ /* Alto fijo para los logos */
     /*flex-wrap: wrap; /* Permite que los logos se ajusten en varias filas si es necesario */
+    margin-bottom: 30px;/* Espacio debajo de los logos */
     flex-direction: row; /* Esto es por defecto, logos en fila */
     align-items: center;    /* Centra los logos horizontalmente */
 }
